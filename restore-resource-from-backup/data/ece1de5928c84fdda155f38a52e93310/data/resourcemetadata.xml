@@ -1,0 +1,158 @@
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:hsterms="http://hydroshare.org/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs1="http://www.w3.org/2001/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/ece1de5928c84fdda155f38a52e93310">
+    <dc:title>Texas Counties (all)</dc:title>
+    <dc:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureResource"/>
+    <dc:description>
+      <rdf:Description>
+        <dcterms:abstract>This map of Texas Counties is from the Texas Natural Resource Information System (TNRIS). Each county has additional attributes to identify Regional Planning Commissions and Emergency Communications Districts. </dcterms:abstract>
+      </rdf:Description>
+    </dc:description>
+    <dc:creator>
+      <rdf:Description rdf:about="http://www.hydroshare.org/user/257/">
+        <hsterms:name>David Arctur</hsterms:name>
+        <hsterms:creatorOrder>1</hsterms:creatorOrder>
+        <hsterms:organization>University of Texas at Austin</hsterms:organization>
+        <hsterms:email>david.arctur@utexas.edu</hsterms:email>
+        <hsterms:phone rdf:resource="tel:512-771-1434"/>
+      </rdf:Description>
+    </dc:creator>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>northlimit=36.500380002; eastlimit=-93.507800001; southlimit=25.83722; westlimit=-106.64622; units=Decimal degrees; projection=WGS 84 EPSG:4326</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:date>
+      <dcterms:created>
+        <rdf:value>2017-01-13T18:38:43.459004+00:00</rdf:value>
+      </dcterms:created>
+    </dc:date>
+    <dc:date>
+      <dcterms:modified>
+        <rdf:value>2017-01-13T19:54:16.490262+00:00</rdf:value>
+      </dcterms:modified>
+    </dc:date>
+    <dc:format>application/cpg</dc:format>
+    <dc:format>application/dbf</dc:format>
+    <dc:format>application/prj</dc:format>
+    <dc:format>application/sbn</dc:format>
+    <dc:format>application/sbx</dc:format>
+    <dc:format>application/x-qgis</dc:format>
+    <dc:format>application/xml</dc:format>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:hydroShareIdentifier>http://www.hydroshare.org/resource/ece1de5928c84fdda155f38a52e93310</hsterms:hydroShareIdentifier>
+      </rdf:Description>
+    </dc:identifier>
+    <dc:language>eng</dc:language>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution-NoCommercial CC BY-NC.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <dc:subject>Texas</dc:subject>
+    <dc:subject>Emergency Communications Districts</dc:subject>
+    <dc:subject>Flood Response</dc:subject>
+    <hsterms:GeometryInformation>
+      <rdf:Description>
+        <hsterms:featureCount>254</hsterms:featureCount>
+        <hsterms:geometryType>MULTIPOLYGON</hsterms:geometryType>
+      </rdf:Description>
+    </hsterms:GeometryInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth>13</hsterms:fieldWidth>
+        <hsterms:fieldName>CNTY_NM</hsterms:fieldName>
+        <hsterms:fieldType>String</hsterms:fieldType>
+        <hsterms:fieldTypeCode>4</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth>5</hsterms:fieldWidth>
+        <hsterms:fieldName>Disastr_Dt</hsterms:fieldName>
+        <hsterms:fieldType>Integer</hsterms:fieldType>
+        <hsterms:fieldTypeCode>0</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth>5</hsterms:fieldWidth>
+        <hsterms:fieldName>EmComm_Dt</hsterms:fieldName>
+        <hsterms:fieldType>Integer</hsterms:fieldType>
+        <hsterms:fieldTypeCode>0</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth>5</hsterms:fieldWidth>
+        <hsterms:fieldName>MuEmCm_Dt</hsterms:fieldName>
+        <hsterms:fieldType>Integer</hsterms:fieldType>
+        <hsterms:fieldTypeCode>0</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth>10</hsterms:fieldWidth>
+        <hsterms:fieldName>COG_Nm</hsterms:fieldName>
+        <hsterms:fieldType>String</hsterms:fieldType>
+        <hsterms:fieldTypeCode>4</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth>5</hsterms:fieldWidth>
+        <hsterms:fieldName>Region</hsterms:fieldName>
+        <hsterms:fieldType>Integer</hsterms:fieldType>
+        <hsterms:fieldTypeCode>0</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth>10</hsterms:fieldWidth>
+        <hsterms:fieldName>CNTY_NBR</hsterms:fieldName>
+        <hsterms:fieldType>Integer64</hsterms:fieldType>
+        <hsterms:fieldTypeCode>12</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth>10</hsterms:fieldWidth>
+        <hsterms:fieldName>FIPS</hsterms:fieldName>
+        <hsterms:fieldType>Integer64</hsterms:fieldType>
+        <hsterms:fieldTypeCode>12</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldPrecision>11</hsterms:fieldPrecision>
+        <hsterms:fieldWidth>19</hsterms:fieldWidth>
+        <hsterms:fieldName>Shape_Leng</hsterms:fieldName>
+        <hsterms:fieldType>Real</hsterms:fieldType>
+        <hsterms:fieldTypeCode>2</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldPrecision>11</hsterms:fieldPrecision>
+        <hsterms:fieldWidth>19</hsterms:fieldWidth>
+        <hsterms:fieldName>Shape_Area</hsterms:fieldName>
+        <hsterms:fieldType>Real</hsterms:fieldType>
+        <hsterms:fieldTypeCode>2</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:spatialReference>
+      <hsterms:box>
+        <rdf:value>northlimit=36.500380002; eastlimit=-93.507800001; southlimit=25.83722; westlimit=-106.64622; units=Degree; projection_name=GCS_North_American_1983; projection_string=GEOGCS["GCS_North_American_1983",
+    DATUM["North_American_Datum_1983",
+        SPHEROID["GRS_1980",6378137.0,298.257222101]],
+    PRIMEM["Greenwich",0.0],
+    UNIT["Degree",0.0174532925199433]]; datum=North_American_Datum_1983</rdf:value>
+      </hsterms:box>
+    </hsterms:spatialReference>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/GeographicFeatureResource">
+    <rdfs1:label>Geographic Feature (ESRI Shapefiles)</rdfs1:label>
+    <rdfs1:isDefinedBy>http://www.hydroshare.org/terms</rdfs1:isDefinedBy>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,10 @@
+sha2:kxj0BoiRNPBr9HQwwibQ6GqGj+Lga4If8KMotNu1L58=    data/resourcemap.xml
+sha2:i2+Hgs97aFH1sRySR+G2T5o6JiUwjeKTglLph5VB974=    data/resourcemetadata.xml
+sha2:OtMDH1UDpEBK+CUmLugjLMBNTqZoPULF3QovKiesmCQ=    data/contents/Tx_Counties_all.cpg
+sha2:jP1G1Pbzrt41lsNhl3UYP+c3rBBnqA0ilaNj59+CgSo=    data/contents/Tx_Counties_all.dbf
+sha2:hM9bmjwaRE+DrDD/dvjFA1mQIjAnummy9NYoOIrcvWU=    data/contents/Tx_Counties_all.prj
+sha2:ryMhlP5H/jvnU7ACaJoYJFINgzrK0tjuTWBNmH7SSD4=    data/contents/Tx_Counties_all.sbn
+sha2:QYW4nG32CwQC1kblsMdyAxIScK6BlZVQj57ne/A0t9U=    data/contents/Tx_Counties_all.sbx
+sha2:+qO047Fh1cx/NiMrrHsKAYjMbzegGl3umwQC6gRqnHQ=    data/contents/Tx_Counties_all.shp
+sha2:45PQZQHE3Aobdob6XqBy6FXHt1TkTkBYqYUI+L1ossY=    data/contents/Tx_Counties_all.shp.xml
+sha2:20m3RGEinipUu0bWXqwEU1I7qPN5/ZtF0ayOfdGKvPs=    data/contents/Tx_Counties_all.shx
